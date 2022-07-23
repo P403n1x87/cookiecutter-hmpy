@@ -121,7 +121,6 @@ def precommit(session: Session) -> None:
     ]
     session.install(
         "black",
-        "darglint",
         "flake8",
         "flake8-bandit",
         "flake8-bugbear",
@@ -149,7 +148,7 @@ def safety(session: Session) -> None:
 @session(python=python_versions)
 def mypy(session: Session) -> None:
     """Type-check using mypy."""
-    args = session.posargs or ["src", "tests", "docs/conf.py"]
+    args = session.posargs or [package, "tests", "docs/conf.py"]
     session.install(".")
     session.install("mypy", "pytest")
     session.run("mypy", *args)

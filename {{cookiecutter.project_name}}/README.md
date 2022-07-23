@@ -1,71 +1,95 @@
-# {{ cookiecutter.friendly_name }}
+<p align="center">
+  <br/>
+  <img src="art/logo.png"
+       alt="{{ cookiecutter.friendly_name }} logo"
+       height="256px" />
+  <br/>
+</p>
 
-[![PyPI](https://img.shields.io/pypi/v/{{cookiecutter.project_name}}.svg)][pypi status]
-[![Status](https://img.shields.io/pypi/status/{{cookiecutter.project_name}}.svg)][pypi status]
-[![Python Version](https://img.shields.io/pypi/pyversions/{{cookiecutter.project_name}})][pypi status]
-[![License](https://img.shields.io/pypi/l/{{cookiecutter.project_name}})][license]
+<h3 align="center">{{ cookiecutter.friendly_name }}</h3>
 
-[![Read the documentation at https://{{cookiecutter.project_name}}.readthedocs.io/](https://img.shields.io/readthedocs/{{cookiecutter.project_name}}/latest.svg?label=Read%20the%20Docs)][read the docs]
-[![Tests](https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/workflows/Tests/badge.svg)][tests]
-[![Codecov](https://codecov.io/gh/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/branch/main/graph/badge.svg)][codecov]
+<p align="center">
+  <a href="https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/actions?workflow=Tests">
+    <img src="https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/workflows/Tests/badge.svg"
+         alt="GitHub Actions: Tests">
+  </a>
+  <a href="https://travis-ci.org/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}">
+    <img src="https://travis-ci.org/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}.svg?branch=main"
+         alt="Travis CI">
+  </a>
+  <a href="https://codecov.io/gh/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}">
+    <img src="https://codecov.io/gh/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/branch/main/graph/badge.svg"
+         alt="Codecov">
+  </a>
+  <a href="https://{{cookiecutter.project_name}}.readthedocs.io/">
+    <img src="https://readthedocs.org/projects/{{cookiecutter.project_name}}/badge/"
+         alt="Documentation">
+  </a>
+  <br/>
+  <a href="https://pypi.org/project/{{cookiecutter.project_name}}/">
+    <img src="https://img.shields.io/pypi/v/{{cookiecutter.project_name}}.svg"
+         alt="PyPI">
+  </a>
+  <a href="https://pepy.tech/project/{{cookiecutter.project_name}}">
+    <img src="https://static.pepy.tech/personalized-badge/{{cookiecutter.project_name}}?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads"
+         alt="Downloads" />
+  <a/>
+  <br/>
+  <a href="https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/blob/main/LICENSE.md">
+    <img src="https://img.shields.io/badge/license-GPLv3-ff69b4.svg"
+         alt="LICENSE">
+  </a>
+</p>
 
-[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][pre-commit]
-[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)][black]
+<p align="center">
+  <a href="#synopsis"><b>Synopsis</b></a>&nbsp;&bull;
+  <a href="#installation"><b>Installation</b></a>&nbsp;&bull;
+  <a href="#usage"><b>Usage</b></a>&nbsp;&bull;
+  <a href="#compatibility"><b>Compatibility</b></a>&nbsp;&bull;
+  <a href="#documentation"><b>Documentation</b></a>&nbsp;&bull;
+  <a href="#contribute"><b>Contribute</b></a>
+</p>
 
-[pypi status]: https://pypi.org/project/{{cookiecutter.project_name}}/
-[read the docs]: https://{{cookiecutter.project_name}}.readthedocs.io/
-[tests]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/actions?workflow=Tests
-[codecov]: https://app.codecov.io/gh/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}
-[pre-commit]: https://github.com/pre-commit/pre-commit
-[black]: https://github.com/psf/black
 
-## Features
+# Synopsis
 
-- TODO
+<!-- TODO -->
 
-## Requirements
 
-- TODO
+# Installation
 
-## Installation
+This package can be installed from PyPI with
 
-You can install _{{cookiecutter.friendly_name}}_ via [pip] from [PyPI]:
+~~~ bash
+pip install --user {{cookiecutter.project_name}} --upgrade
+~~~
 
-```console
-$ pip install {{cookiecutter.project_name}}
-```
+<!-- TODO -->
 
-## Usage
 
-Please see the [Command-line Reference] for details.
+# Usage
 
-## Contributing
+<!-- TODO -->
 
-Contributions are very welcome.
-To learn more, see the [Contributor Guide].
 
-## License
 
-Distributed under the terms of the [{{cookiecutter.license.replace("-", " ")}} license][license],
-_{{cookiecutter.friendly_name}}_ is free and open source software.
+# Compatibility
 
-## Issues
+<!-- TODO -->
 
-If you encounter any problems,
-please [file an issue] along with a detailed description.
 
-## Credits
+# Documentation
 
-This project was generated from [@cjolowicz]'s [Hypermodern Python Cookiecutter] template.
+The official documentation is hosted on readthedocs.io at
+[{{cookiecutter.project_name}}.readthedocs.io](https://{{cookiecutter.project_name}}.readthedocs.io/).
 
-[@cjolowicz]: https://github.com/cjolowicz
-[pypi]: https://pypi.org/
-[hypermodern python cookiecutter]: https://github.com/cjolowicz/cookiecutter-hypermodern-python
-[file an issue]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/issues
-[pip]: https://pip.pypa.io/
+<!-- TODO -->
 
-<!-- github-only -->
 
-[license]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/blob/main/LICENSE
-[contributor guide]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/blob/main/CONTRIBUTING.md
-[command-line reference]: https://{{cookiecutter.project_name}}.readthedocs.io/en/latest/usage.html
+# Contribute
+
+If you want to help with the development, then have a look at the open issues
+and have a look at the [contributing guidelines](CONTRIBUTING.md) before you
+open a pull request.
+
+<!-- TODO -->
